@@ -1,7 +1,17 @@
 # Panorama Javascript
 
-## Events
+## Event related functions
+| Function | Signature | Description |
+| -------- | --------- | ----------- |
+| DispatchEvent |	`DispatchEvent( js_raw_args js_raw_args_1 )`	| Dispatch an event
+| DispatchEventAsync |	`DispatchEventAsync( js_raw_args js_raw_args_1 )`	| Dispatch an event to occur later
+| RegisterEventHandler |	`RegisterEventHandler( js_raw_args js_raw_args_1 )`	| Register an event handler
+| RegisterForUnhandledEvent |	`RegisterForUnhandledEvent( js_raw_args js_raw_args_1 )`	| Register a handler for an event that is not otherwise handled
+| UnregisterForUnhandledEvent |	`UnregisterForUnhandledEvent( js_raw_args js_raw_args_1 )`	| Remove an unhandled event handler
 
+[Source](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama/Javascript/API#.24)
+
+## Events
 | Event name | ??? | Panel event | Tags | Description | ??? |
 | ---- | --- | --- | ---- | ----------- | --- |
 | Activated | 1 | true |  |  | 0 |
