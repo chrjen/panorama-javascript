@@ -4,7 +4,7 @@
 | Function | Signature | Description |
 | -------- | --------- | ----------- |
 | DispatchEvent |	`DispatchEvent(eventName, [panelId,] arg1, arg2, ... )`	| Dispatch an event
-| DispatchEventAsync |	`DispatchEventAsync(eventName, [panelId,] arg1, arg2, ...)`	| Dispatch an event to occur later
+| DispatchEventAsync |	`DispatchEventAsync(delaySeconds, eventName, [panelId,] arg1, arg2, ...)`	| Dispatch an event to occur later
 | RegisterEventHandler |	`RegisterEventHandler(eventName, panelId, callback)`	| Register an event handler
 | RegisterForUnhandledEvent |	`RegisterForUnhandledEvent(eventName, callback)`	| Register a handler for an event that is not otherwise handled
 | UnregisterForUnhandledEvent |	`UnregisterForUnhandledEvent( js_raw_args js_raw_args_1 )`	| Remove an unhandled event handler
