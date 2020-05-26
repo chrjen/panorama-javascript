@@ -3,16 +3,16 @@
 ## Event related functions
 | Function | Signature | Description |
 | -------- | --------- | ----------- |
-| DispatchEvent |	`DispatchEvent( js_raw_args js_raw_args_1 )`	| Dispatch an event
-| DispatchEventAsync |	`DispatchEventAsync( js_raw_args js_raw_args_1 )`	| Dispatch an event to occur later
-| RegisterEventHandler |	`RegisterEventHandler( js_raw_args js_raw_args_1 )`	| Register an event handler
-| RegisterForUnhandledEvent |	`RegisterForUnhandledEvent( js_raw_args js_raw_args_1 )`	| Register a handler for an event that is not otherwise handled
+| DispatchEvent |	`DispatchEvent(eventName, [panelId,] arg1, arg2, ... )`	| Dispatch an event
+| DispatchEventAsync |	`DispatchEventAsync(eventName, [panelId,] arg1, arg2, ...)`	| Dispatch an event to occur later
+| RegisterEventHandler |	`RegisterEventHandler(eventName, panelId, callback)`	| Register an event handler
+| RegisterForUnhandledEvent |	`RegisterForUnhandledEvent(eventName, callback)`	| Register a handler for an event that is not otherwise handled
 | UnregisterForUnhandledEvent |	`UnregisterForUnhandledEvent( js_raw_args js_raw_args_1 )`	| Remove an unhandled event handler
 
 [Source](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama/Javascript/API#.24)
 
 ## Events
-| Event name | ??? | Panel event | Tags | Description | ??? |
+| Event name | args | Panel event | Tags | Description | ??? |
 | ---- | --- | --- | ---- | ----------- | --- |
 | Activated | 1 | true |  |  | 0 |
 | ActivateMainWindow | 1 | false |  |  | 0 |
