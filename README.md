@@ -12,7 +12,7 @@
 [Source](https://developer.valvesoftware.com/wiki/Dota_2_Workshop_Tools/Panorama/Javascript/API#.24)
 
 ## Events
-| Event name | args | Panel event | Tags | Description | ??? |
+| Event name | Arg count | Panel event | Arg names | Description | ??? |
 | ---- | --- | --- | ---- | ----------- | --- |
 | Activated | 1 | true |  |  | 0 |
 | ActivateMainWindow | 1 | false |  |  | 0 |
